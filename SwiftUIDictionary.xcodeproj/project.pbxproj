@@ -15,6 +15,8 @@
 		4406E49C23DAB2DB00820416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4406E49A23DAB2DB00820416 /* LaunchScreen.storyboard */; };
 		4406E4A723DAB2DC00820416 /* SwiftUIDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406E4A623DAB2DC00820416 /* SwiftUIDictionaryTests.swift */; };
 		4406E4B223DAB2DC00820416 /* SwiftUIDictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406E4B123DAB2DC00820416 /* SwiftUIDictionaryUITests.swift */; };
+		4406E4C023DAC20A00820416 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406E4BF23DAC20A00820416 /* Dictionary.swift */; };
+		4406E4C223DB28F500820416 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4406E4C123DB28F500820416 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4406E4AD23DAB2DC00820416 /* SwiftUIDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4406E4B123DAB2DC00820416 /* SwiftUIDictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDictionaryUITests.swift; sourceTree = "<group>"; };
 		4406E4B323DAB2DC00820416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4406E4BF23DAC20A00820416 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		4406E4C123DB28F500820416 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				4406E48F23DAB2D900820416 /* AppDelegate.swift */,
 				4406E49123DAB2D900820416 /* SceneDelegate.swift */,
 				4406E49323DAB2D900820416 /* ContentView.swift */,
+				4406E4BF23DAC20A00820416 /* Dictionary.swift */,
+				4406E4C123DB28F500820416 /* Movie.swift */,
 				4406E49523DAB2DB00820416 /* Assets.xcassets */,
 				4406E49A23DAB2DB00820416 /* LaunchScreen.storyboard */,
 				4406E49D23DAB2DB00820416 /* Info.plist */,
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4406E49023DAB2D900820416 /* AppDelegate.swift in Sources */,
+				4406E4C023DAC20A00820416 /* Dictionary.swift in Sources */,
 				4406E49223DAB2D900820416 /* SceneDelegate.swift in Sources */,
 				4406E49423DAB2D900820416 /* ContentView.swift in Sources */,
+				4406E4C223DB28F500820416 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
