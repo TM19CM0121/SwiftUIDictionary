@@ -95,7 +95,12 @@ struct DetailView: View {
 struct SampleView: View {
     var body: some View {
         VStack{
-            Text("ここにテキストを入れます")
+            Image("画像の名前（拡張子なし）")
         }
     }
 }
+
+
+
+
+
